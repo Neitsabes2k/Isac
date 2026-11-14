@@ -536,7 +536,12 @@ def lancer():
 
 if __name__ == "__main__":
     try:
-        lancer()
+        # Si on lance avec l'argument --headless (utilisé par GitHub Actions), on fait juste la mise à jour
+        if len(sys.argv) > 1 and sys.argv[1] == "--headless":
+            main()
+        else:
+            # En local, on garde ton comportement habituel avec le serveur et le navigateur
+            lancer()
     except Exception as e:
         print("\nERREUR :", e)
         input("Appuie sur Entrée pour fermer...")
