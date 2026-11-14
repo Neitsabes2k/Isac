@@ -2,7 +2,10 @@ name: Mettre à jour le site Isac
 
 on:
   schedule:
-    - cron: '0 5 * * *' # Tous les jours à 5h00 UTC
+    - cron: '15 8 * * *'   # 8h15 UTC, juste après le changement du butin
+    - cron: '15 9 * * *'   # 9h15 UTC, au cas où ProtoTrack soit en retard
+    - cron: '0 12 * * *'   # 12h00 UTC
+    - cron: '0 18 * * *'   # 18h00 UTC
   workflow_dispatch: # Permet de lancer le script manuellement depuis GitHub
 
 permissions:
@@ -33,6 +36,6 @@ jobs:
       - name: Sauvegarder les changements sur GitHub
         run: |
           git config --global user.name "github-actions[bot]"
-          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.io"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add site/
-          git diff --staged --quiet || (git commit -m "Mise à jour automatique du site (5h du matin)" && git push)
+          git diff --staged --quiet || (git commit -m "Mise à jour automatique du site" && git push)
