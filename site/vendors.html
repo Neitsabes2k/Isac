@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vendor Reset — Division 2 Tools</title>
+  <meta name="description" content="Weekly vendor inventory tracker for The Division 2. Browse gear, weapons and mods from every vendor, updated each Tuesday reset.">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Division 2 Tools">
+  <meta property="og:title" content="Vendor Reset — Weekly Inventory Tracker">
+  <meta property="og:description" content="Browse every vendor's weekly stock — gear, weapons and mods with full stats. Updated each Tuesday reset.">
+  <meta name="theme-color" content="#0a0c0f">
+  <script>
+    (function () {
+      var choice = null;
+      try { choice = localStorage.getItem('d2.motion'); } catch (e) {}
+      var calm = window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches;
+      document.documentElement.dataset.motion = choice === 'on' || choice === 'off' ? choice : calm ? 'off' : 'on';
+      var lang = null;
+      try { lang = localStorage.getItem('d2.lang'); } catch (e) {}
+      if (lang !== 'fr' && lang !== 'en') lang = /^fr\b/i.test(navigator.language || '') ? 'fr' : 'en';
+      document.documentElement.dataset.lang = lang;
+      document.documentElement.lang = lang;
+      setTimeout(function () { document.documentElement.dataset.ready = '1'; }, 2500);
+    })();
+  </script>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' fill='%230a0c0f'/%3E%3Ccircle cx='20' cy='20' r='13' fill='none' stroke='%23ff6d10' stroke-width='4' stroke-dasharray='62 20' transform='rotate(-60 20 20)'/%3E%3Ccircle cx='20' cy='20' r='4.5' fill='%23ff6d10'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Rajdhani:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css?v=37">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <svg class="mark" viewBox="0 0 40 40" aria-hidden="true">
+        <circle cx="20" cy="20" r="16" fill="none" stroke="currentColor" stroke-width="3" stroke-dasharray="76 24.5"/>
+        <circle cx="20" cy="20" r="5" fill="currentColor"/>
+      </svg>
+      <div>
+        <h1>Division 2 Tools</h1>
+        <p class="sub">Vendor Reset</p>
+      </div>
+    </div>
+    <nav class="tools" aria-label="Tools">
+      <a href="index.html">Build planner</a>
+      <a href="calendar.html">Seasonal calendar</a>
+      <a href="escalation.html">Escalation loot</a>
+      <a href="isac.html">ISAC</a>
+      <a href="vendors.html" aria-current="page">Vendors</a>
+    </nav>
+    <div class="lang" role="group" aria-label="Language">
+      <button data-lang-pick="en" aria-pressed="true">EN</button>
+      <button data-lang-pick="fr" aria-pressed="false">FR</button>
+    </div>
+  </header>
+
+  <div class="vdr-layout">
+    <!-- Left sidebar -->
+    <aside class="vdr-sidebar" id="vdr-sidebar">
+      <h2 class="vdr-sidebar-title">Vendors</h2>
+      <nav class="vdr-sidebar-nav" id="vdr-sidebar-nav">
+        <!-- JS populates vendor buttons here -->
+      </nav>
+    </aside>
+
+    <!-- Main content -->
+    <main class="vdr-main">
+      <!-- Top controls -->
+      <div class="vdr-top-bar">
+        <div class="vdr-top-left">
+          <h2 class="vdr-view-title" id="vdr-view-title">Weekly overview</h2>
+          <span class="vdr-offer-count" id="vdr-offer-count"></span>
+        </div>
+        <div class="vdr-timer-area">
+          <span class="vdr-timer-label">Next reset</span>
+          <span id="vendor-countdown" class="vdr-countdown">--</span>
+        </div>
+      </div>
+
+      <!-- Search + filters -->
+      <div class="vdr-filters">
+        <div class="vdr-search-wrap">
+          <input type="search" id="vendor-search" placeholder="Item, attribute, talent…" autocomplete="off" spellcheck="false">
+        </div>
+        <div class="vdr-type-filter">
+          <label class="vdr-filter-label">Item type</label>
+          <select id="vendor-type-select">
+            <option value="all">All types</option>
+            <option value="gear">Gear</option>
+            <option value="weapon">Weapons</option>
+            <option value="mod">Mods</option>
+            <option value="cache">Caches</option>
+          </select>
+        </div>
+        <label class="vdr-must-buy-filter">
+          <input type="checkbox" id="vendor-must-buy">
+          <span>Must Buy only</span>
+        </label>
+      </div>
+
+      <!-- Loading state -->
+      <div id="vendor-loading" class="vdr-loading">
+        <div class="isac-scan-ring"></div>
+        <span>Loading vendor inventory…</span>
+      </div>
+
+      <!-- Error state -->
+      <div id="vendor-error" class="vdr-status" hidden>
+        <p class="note warn" id="vendor-error-msg"></p>
+      </div>
+
+      <!-- Card grid -->
+      <div id="vendor-grid" class="vdr-grid"></div>
+
+      <!-- Empty state -->
+      <div id="vendor-no-results" class="vdr-status" hidden>
+        <p>No items match your search</p>
+      </div>
+    </main>
+
+    <!-- Mobile sidebar toggle -->
+    <button class="vdr-sidebar-toggle" id="vdr-sidebar-toggle" aria-label="Toggle vendor list">
+      <svg viewBox="0 0 20 20" fill="currentColor"><path d="M3 5h14v1.5H3zm0 4.25h14v1.5H3zm0 4.25h14v1.5H3z"/></svg>
+    </button>
+  </div>
+
+  <footer class="foot">
+    <p>Fan-made tool, not affiliated with Ubisoft.
+  </footer>
+
+  <script type="module" src="js/vendors.js?v=11"></script>
+</body>
+</html>

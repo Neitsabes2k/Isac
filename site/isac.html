@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ISAC — Division 2 Player Intelligence</title>
+  <meta name="description" content="Look up any Division 2 agent. ISAC analyzes combat performance, marksmanship metrics and account legitimacy across PC, Xbox and PlayStation.">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Division 2 Tools">
+  <meta property="og:title" content="ISAC — Player Intelligence System">
+  <meta property="og:description" content="Advanced profile search engine and combat analytics for The Division 2. Cross-platform player lookup with legitimacy assessment.">
+  <meta name="theme-color" content="#0a0c0f">
+  <script>
+    (function () {
+      var choice = null;
+      try { choice = localStorage.getItem('d2.motion'); } catch (e) {}
+      var calm = window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches;
+      document.documentElement.dataset.motion = choice === 'on' || choice === 'off' ? choice : calm ? 'off' : 'on';
+      var lang = null;
+      try { lang = localStorage.getItem('d2.lang'); } catch (e) {}
+      if (lang !== 'fr' && lang !== 'en') lang = /^fr\b/i.test(navigator.language || '') ? 'fr' : 'en';
+      document.documentElement.dataset.lang = lang;
+      document.documentElement.lang = lang;
+      setTimeout(function () { document.documentElement.dataset.ready = '1'; }, 2500);
+    })();
+  </script>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' fill='%230a0c0f'/%3E%3Ccircle cx='20' cy='20' r='13' fill='none' stroke='%23ff6d10' stroke-width='4' stroke-dasharray='62 20' transform='rotate(-60 20 20)'/%3E%3Ccircle cx='20' cy='20' r='4.5' fill='%23ff6d10'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Rajdhani:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css?v=36">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <svg class="mark" viewBox="0 0 40 40" aria-hidden="true">
+        <circle cx="20" cy="20" r="16" fill="none" stroke="currentColor" stroke-width="3" stroke-dasharray="76 24.5"/>
+        <circle cx="20" cy="20" r="5" fill="currentColor"/>
+      </svg>
+      <div>
+        <h1>ISAC Intelligence</h1>
+        <p class="sub">The Division 2</p>
+      </div>
+    </div>
+    <nav class="tools" aria-label="Tools">
+      <a href="index.html">Build planner</a>
+      <a href="calendar.html">Seasonal calendar</a>
+      <a href="escalation.html">Escalation loot</a>
+      <a href="isac.html" aria-current="page">ISAC</a>
+      <a href="vendors.html">Vendors</a>
+    </nav>
+    <div class="lang" role="group" aria-label="Language">
+      <button data-lang-pick="en" aria-pressed="true">EN</button>
+      <button data-lang-pick="fr" aria-pressed="false">FR</button>
+    </div>
+  </header>
+
+  <main id="isac" class="page isac-page">
+    <!-- Search bar -->
+    <section class="panel isac-search-panel">
+      <div class="isac-logo-row">
+        <svg class="isac-eye" viewBox="0 0 80 80" aria-hidden="true">
+          <circle cx="40" cy="40" r="36" fill="none" stroke="var(--accent)" stroke-width="2" stroke-dasharray="170 56"/>
+          <circle cx="40" cy="40" r="28" fill="none" stroke="var(--accent)" stroke-width="1" stroke-opacity="0.4" stroke-dasharray="4 8"/>
+          <circle cx="40" cy="40" r="18" fill="none" stroke="var(--accent)" stroke-width="2.5" stroke-dasharray="40 73"/>
+          <circle cx="40" cy="40" r="5" fill="var(--accent)"/>
+        </svg>
+        <div>
+          <h2 class="isac-title">ISAC Player Intelligence</h2>
+          <p class="isac-sub">Intelligent System Analytic Computer — Agent Verification Protocol</p>
+        </div>
+      </div>
+      <div class="isac-bar">
+        <div class="isac-platform seg">
+          <button class="seg-btn on" data-platform="uplay">PC</button>
+          <button class="seg-btn" data-platform="psn">PlayStation</button>
+          <button class="seg-btn" data-platform="xbl">Xbox</button>
+        </div>
+        <div class="isac-input-wrap">
+          <input type="search" id="isac-query" placeholder="Enter agent handle…" autocomplete="off" spellcheck="false">
+          <button class="btn primary" id="isac-search">Scan Agent</button>
+        </div>
+      </div>
+      <div id="isac-results" class="isac-results" hidden></div>
+    </section>
+
+    <!-- Profile (hidden until loaded) -->
+    <div id="isac-profile" hidden>
+
+      <!-- Identity card -->
+      <section class="panel isac-id-card">
+        <div class="isac-agent-row">
+          <img id="isac-avatar" class="isac-avatar" src="" alt="" width="64" height="64">
+          <div class="isac-agent-info">
+            <h2 id="isac-name" class="isac-agent-name"></h2>
+            <p id="isac-platform-sub" class="isac-agent-sub"></p>
+          </div>
+          <div id="isac-verdict" class="isac-verdict-area"></div>
+        </div>
+      </section>
+
+      <!-- Merits row -->
+      <section class="panel isac-merits-section">
+        <div class="isac-merits-head">
+          <span class="isac-merits-label">Merits</span>
+          <button id="merit-guide-btn" class="isac-guide-link">Merit guide</button>
+        </div>
+        <div id="isac-merits" class="isac-merits"></div>
+      </section>
+
+      <!-- Quick stats bar -->
+      <div id="isac-quickstats" class="isac-quickstats"></div>
+
+      <!-- Tab bar -->
+      <nav class="isac-tabs" role="tablist" aria-label="Profile sections">
+        <button class="isac-tab on" data-tab="overview" role="tab" aria-selected="true">Overview</button>
+        <button class="isac-tab" data-tab="combat" role="tab" aria-selected="false">Combat</button>
+        <button class="isac-tab" data-tab="darkzone" role="tab" aria-selected="false">Dark Zone</button>
+        <button class="isac-tab" data-tab="progression" role="tab" aria-selected="false">Progression</button>
+        <button class="isac-tab" data-tab="isac-prof" role="tab" aria-selected="false">ISAC profile</button>
+        <button class="isac-tab" data-tab="anticheat" role="tab" aria-selected="false">Anti-cheat</button>
+      </nav>
+
+      <!-- Tab panels -->
+      <div id="tab-overview" class="isac-tab-panel active" role="tabpanel"></div>
+      <div id="tab-combat" class="isac-tab-panel" role="tabpanel" hidden></div>
+      <div id="tab-darkzone" class="isac-tab-panel" role="tabpanel" hidden></div>
+      <div id="tab-progression" class="isac-tab-panel" role="tabpanel" hidden></div>
+      <div id="tab-isac-prof" class="isac-tab-panel" role="tabpanel" hidden></div>
+      <div id="tab-anticheat" class="isac-tab-panel" role="tabpanel" hidden></div>
+
+      <p id="isac-footer-note" class="note" style="text-align:center;margin-top:12px"></p>
+    </div>
+
+    <!-- Empty state -->
+    <div id="isac-empty" class="isac-empty">
+      <svg viewBox="0 0 120 120" aria-hidden="true">
+        <circle cx="60" cy="60" r="54" fill="none" stroke="var(--line-2)" stroke-width="1" stroke-dasharray="8 6"/>
+        <circle cx="60" cy="60" r="36" fill="none" stroke="var(--line-2)" stroke-width="1" stroke-dasharray="4 8"/>
+        <circle cx="60" cy="60" r="6" fill="var(--line-2)"/>
+      </svg>
+      <p>Enter an agent handle above to begin scanning</p>
+      <p class="note">ISAC retrieves live player data across PC, Xbox and PlayStation</p>
+    </div>
+  </main>
+
+  <!-- Merit guide dialog -->
+  <dialog id="merit-guide" class="sheet small" aria-label="Merit guide">
+    <div class="sheet-inner">
+      <div class="sheet-head">
+        <div>
+          <div class="eyebrow">ISAC v2 / Merit Intelligence</div>
+          <h2>Automatic Merit System</h2>
+        </div>
+        <button class="btn small" id="merit-guide-close">Close</button>
+      </div>
+      <div class="sheet-body" id="merit-guide-body">
+        <p class="note" style="margin-bottom:14px">15 automatic merits · Definitions and minimum requirements</p>
+      </div>
+    </div>
+  </dialog>
+
+  <footer class="foot">
+    <p>Fan-made tool, not affiliated with Ubisoft. Player data from ISAC Network.
+
+  <script type="module" src="js/isac.js?v=19"></script>
+</body>
+</html>
