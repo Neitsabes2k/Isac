@@ -1,5 +1,5 @@
 {
- "date": "2026-11-14",
+ "date": "2026-11-15",
  "week": [
   "2026-11-10",
   "2026-11-16"
@@ -9,64 +9,64 @@
    "mission": "The Tombs",
    "faction": "Rikers",
    "factionIcon": "https://prototrack.gg/assets/division2/factions/rikers.png",
-   "loot": "Empress International",
-   "lootIcon": "https://prototrack.gg/assets/division2/brandsets/empressinternational.png",
-   "appearances": 11,
-   "last_seen_days": 65
+   "loot": "Holster",
+   "lootIcon": "https://prototrack.gg/assets/division2/gear/holster.png",
+   "appearances": 17,
+   "last_seen_days": 1
   },
   {
    "mission": "Manning National Zoo",
    "faction": "Outcasts",
    "factionIcon": "https://prototrack.gg/assets/division2/factions/outcasts.png",
-   "loot": "Holster",
-   "lootIcon": "https://prototrack.gg/assets/division2/gear/holster.png",
-   "appearances": 16,
+   "loot": "Kneepad",
+   "lootIcon": "https://prototrack.gg/assets/division2/gear/kneepads.png",
+   "appearances": 11,
    "last_seen_days": 7
   },
   {
    "mission": "Bank Headquarters",
    "faction": "Hyenas",
    "factionIcon": "https://prototrack.gg/assets/division2/factions/hyenas.png",
-   "loot": "Strikers Battlegear",
-   "lootIcon": "https://prototrack.gg/assets/division2/gearsets/strikersbattlegear.png",
-   "appearances": 7,
-   "last_seen_days": 32
+   "loot": "Hunters Fury",
+   "lootIcon": "https://prototrack.gg/assets/division2/gearsets/huntersfury.png",
+   "appearances": 8,
+   "last_seen_days": 11
   },
   {
    "mission": "American History Museum",
    "faction": "True Sons",
    "factionIcon": "https://prototrack.gg/assets/division2/factions/truesons.png",
-   "loot": "Skill Mods",
-   "lootIcon": "https://prototrack.gg/assets/division2/gear/skillmod.png",
-   "appearances": 14,
-   "last_seen_days": 31
+   "loot": "Uzina Getica",
+   "lootIcon": "https://prototrack.gg/assets/division2/brandsets/uzinagetica.png",
+   "appearances": 13,
+   "last_seen_days": 3
   },
   {
    "mission": "Space Administration HQ",
    "faction": "True Sons",
    "factionIcon": "https://prototrack.gg/assets/division2/factions/truesons.png",
-   "loot": "Future Initiative",
-   "lootIcon": "https://prototrack.gg/assets/division2/gearsets/futureinitiative.png",
-   "appearances": 15,
-   "last_seen_days": 12
+   "loot": "Virtuoso",
+   "lootIcon": "https://prototrack.gg/assets/division2/gearsets/virtuoso.png",
+   "appearances": 13,
+   "last_seen_days": 10
   }
  ],
  "caches": [
   {
    "type": "Prototype Gear Cache",
-   "item": "Backpacks",
-   "icon": "https://prototrack.gg/assets/division2/gear/backpack.png",
-   "appearances": 27,
-   "last_seen_days": 5
+   "item": "Gloves",
+   "icon": "https://prototrack.gg/assets/division2/gear/gloves.png",
+   "appearances": 34,
+   "last_seen_days": 9
   },
   {
    "type": "Prototype Weapon Cache",
-   "item": "LMGs",
-   "icon": "https://prototrack.gg/assets/division2/weapons/lmg.png",
-   "appearances": 24,
-   "last_seen_days": 9
+   "item": "Assault Rifles",
+   "icon": "https://prototrack.gg/assets/division2/weapons/ar.png",
+   "appearances": 27,
+   "last_seen_days": 4
   }
  ],
  "tracked_since": "2026-10-09",
- "updated": "2026-11-14T21:50:49Z"
+ "updated": "2026-11-15T15:40:24Z"
 }
