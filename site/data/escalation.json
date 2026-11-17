@@ -1,8 +1,8 @@
 {
  "date": "2026-11-16",
  "week": [
-  "2026-11-10",
-  "2026-11-16"
+  "2026-11-17",
+  "2026-11-23"
  ],
  "missions": [
   {
@@ -11,7 +11,7 @@
    "factionIcon": "https://prototrack.gg/assets/division2/factions/rikers.png",
    "loot": "Hunters Fury",
    "lootIcon": "https://prototrack.gg/assets/division2/gearsets/huntersfury.png",
-   "appearances": 9,
+   "appearances": 10,
    "last_seen_days": 1
   },
   {
@@ -20,8 +20,8 @@
    "factionIcon": "https://prototrack.gg/assets/division2/factions/outcasts.png",
    "loot": "Zwiadowka Sp. z o.o",
    "lootIcon": "https://prototrack.gg/assets/division2/brandsets/zwiadowkaspzoo.png",
-   "appearances": 15,
-   "last_seen_days": 6
+   "appearances": 16,
+   "last_seen_days": 1
   },
   {
    "mission": "Bank Headquarters",
@@ -29,8 +29,8 @@
    "factionIcon": "https://prototrack.gg/assets/division2/factions/hyenas.png",
    "loot": "Mask",
    "lootIcon": "https://prototrack.gg/assets/division2/gear/mask.png",
-   "appearances": 12,
-   "last_seen_days": 29
+   "appearances": 13,
+   "last_seen_days": 1
   },
   {
    "mission": "American History Museum",
@@ -38,8 +38,8 @@
    "factionIcon": "https://prototrack.gg/assets/division2/factions/truesons.png",
    "loot": "Wyvern Wear",
    "lootIcon": "https://prototrack.gg/assets/division2/brandsets/wyvernwear.png",
-   "appearances": 15,
-   "last_seen_days": 9
+   "appearances": 16,
+   "last_seen_days": 1
   },
   {
    "mission": "Space Administration HQ",
@@ -47,8 +47,8 @@
    "factionIcon": "https://prototrack.gg/assets/division2/factions/truesons.png",
    "loot": "Ortiz: Reficere",
    "lootIcon": "https://prototrack.gg/assets/division2/gearsets/ortizreficere.png",
-   "appearances": 15,
-   "last_seen_days": 13
+   "appearances": 16,
+   "last_seen_days": 1
   }
  ],
  "caches": [
@@ -56,17 +56,17 @@
    "type": "Prototype Gear Cache",
    "item": "Holsters",
    "icon": "https://prototrack.gg/assets/division2/gear/holster.png",
-   "appearances": 28,
-   "last_seen_days": 3
+   "appearances": 29,
+   "last_seen_days": 1
   },
   {
    "type": "Prototype Weapon Cache",
    "item": "Assault Rifles",
    "icon": "https://prototrack.gg/assets/division2/weapons/ar.png",
-   "appearances": 28,
+   "appearances": 29,
    "last_seen_days": 1
   }
  ],
  "tracked_since": "2026-10-09",
- "updated": "2026-11-16T21:40:41Z"
+ "updated": "2026-11-17T01:19:17Z"
 }
