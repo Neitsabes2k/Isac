@@ -1,5 +1,5 @@
 {
- "date": "2026-11-17",
+ "date": "2026-11-18",
  "week": [
   "2026-11-17",
   "2026-11-23"
@@ -9,64 +9,64 @@
    "mission": "The Art Museum",
    "faction": "Rikers",
    "factionIcon": "https://prototrack.gg/assets/division2/factions/rikers.png",
-   "loot": "Gloves",
-   "lootIcon": "https://prototrack.gg/assets/division2/gear/gloves.png",
-   "appearances": 17,
-   "last_seen_days": 1
+   "loot": "Body Armor",
+   "lootIcon": "https://prototrack.gg/assets/division2/gear/chest.png",
+   "appearances": 20,
+   "last_seen_days": 14
   },
   {
    "mission": "Capitol Building",
    "faction": "True Sons",
    "factionIcon": "https://prototrack.gg/assets/division2/factions/truesons.png",
-   "loot": "Kneepad",
-   "lootIcon": "https://prototrack.gg/assets/division2/gear/kneepads.png",
-   "appearances": 13,
-   "last_seen_days": 1
+   "loot": "Future Initiative",
+   "lootIcon": "https://prototrack.gg/assets/division2/gearsets/futureinitiative.png",
+   "appearances": 16,
+   "last_seen_days": 4
   },
   {
    "mission": "Jefferson Plaza",
    "faction": "True Sons",
    "factionIcon": "https://prototrack.gg/assets/division2/factions/truesons.png",
-   "loot": "Mask",
-   "lootIcon": "https://prototrack.gg/assets/division2/gear/mask.png",
-   "appearances": 14,
-   "last_seen_days": 1
+   "loot": "Ortiz: Reficere",
+   "lootIcon": "https://prototrack.gg/assets/division2/gearsets/ortizreficere.png",
+   "appearances": 16,
+   "last_seen_days": 2
   },
   {
    "mission": "Lincoln Memorial",
    "faction": "True Sons",
    "factionIcon": "https://prototrack.gg/assets/division2/factions/truesons.png",
-   "loot": "Overlord Armaments",
-   "lootIcon": "https://prototrack.gg/assets/division2/brandsets/overlordarmaments.png",
-   "appearances": 13,
-   "last_seen_days": 1
+   "loot": "Fenris Group AB",
+   "lootIcon": "https://prototrack.gg/assets/division2/brandsets/fenrisgroupab.png",
+   "appearances": 11,
+   "last_seen_days": 91
   },
   {
    "mission": "Federal Emergency Bunker",
    "faction": "Outcasts",
    "factionIcon": "https://prototrack.gg/assets/division2/factions/outcasts.png",
-   "loot": "Hard Wired",
-   "lootIcon": "https://prototrack.gg/assets/division2/gearsets/hardwired.png",
-   "appearances": 20,
-   "last_seen_days": 1
+   "loot": "Gear Mods",
+   "lootIcon": "https://prototrack.gg/assets/division2/gear/gearmod.png",
+   "appearances": 22,
+   "last_seen_days": 9
   }
  ],
  "caches": [
   {
    "type": "Prototype Gear Cache",
-   "item": "Masks",
-   "icon": "https://prototrack.gg/assets/division2/gear/mask.png",
-   "appearances": 39,
-   "last_seen_days": 1
+   "item": "Backpacks",
+   "icon": "https://prototrack.gg/assets/division2/gear/backpack.png",
+   "appearances": 28,
+   "last_seen_days": 4
   },
   {
    "type": "Prototype Weapon Cache",
-   "item": "LMGs",
-   "icon": "https://prototrack.gg/assets/division2/weapons/lmg.png",
-   "appearances": 26,
-   "last_seen_days": 1
+   "item": "Shotguns",
+   "icon": "https://prototrack.gg/assets/division2/weapons/shotgun.png",
+   "appearances": 33,
+   "last_seen_days": 17
   }
  ],
  "tracked_since": "2026-10-09",
- "updated": "2026-11-18T00:15:27Z"
+ "updated": "2026-11-18T17:16:19Z"
 }
