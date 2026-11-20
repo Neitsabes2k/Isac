@@ -1,5 +1,5 @@
 {
- "date": "2026-11-19",
+ "date": "2026-11-20",
  "week": [
   "2026-11-17",
   "2026-11-23"
@@ -9,64 +9,64 @@
    "mission": "The Art Museum",
    "faction": "Rikers",
    "factionIcon": "https://prototrack.gg/assets/division2/factions/rikers.png",
-   "loot": "Gila Guard",
-   "lootIcon": "https://prototrack.gg/assets/division2/brandsets/gilaguard.png",
-   "appearances": 16,
-   "last_seen_days": 1
+   "loot": "Ortiz: Reficere",
+   "lootIcon": "https://prototrack.gg/assets/division2/gearsets/ortizreficere.png",
+   "appearances": 17,
+   "last_seen_days": 2
   },
   {
    "mission": "Capitol Building",
    "faction": "True Sons",
    "factionIcon": "https://prototrack.gg/assets/division2/factions/truesons.png",
-   "loot": "Hana-U Corporation",
-   "lootIcon": "https://prototrack.gg/assets/division2/brandsets/hanaucorporation.png",
-   "appearances": 16,
-   "last_seen_days": 1
+   "loot": "Breaking Point",
+   "lootIcon": "https://prototrack.gg/assets/division2/gearsets/breakingpoint.png",
+   "appearances": 15,
+   "last_seen_days": 29
   },
   {
    "mission": "Jefferson Plaza",
    "faction": "True Sons",
    "factionIcon": "https://prototrack.gg/assets/division2/factions/truesons.png",
-   "loot": "Uzina Getica",
-   "lootIcon": "https://prototrack.gg/assets/division2/brandsets/uzinagetica.png",
-   "appearances": 15,
-   "last_seen_days": 1
+   "loot": "Aces & Eights",
+   "lootIcon": "https://prototrack.gg/assets/division2/gearsets/aceseights.png",
+   "appearances": 17,
+   "last_seen_days": 9
   },
   {
    "mission": "Lincoln Memorial",
    "faction": "True Sons",
    "factionIcon": "https://prototrack.gg/assets/division2/factions/truesons.png",
-   "loot": "Concentrated Company",
-   "lootIcon": "https://prototrack.gg/assets/division2/gearsets/concentratedcompany.png",
-   "appearances": 20,
-   "last_seen_days": 1
+   "loot": "Empress International",
+   "lootIcon": "https://prototrack.gg/assets/division2/brandsets/empressinternational.png",
+   "appearances": 12,
+   "last_seen_days": 6
   },
   {
    "mission": "Federal Emergency Bunker",
    "faction": "Outcasts",
    "factionIcon": "https://prototrack.gg/assets/division2/factions/outcasts.png",
-   "loot": "Grupo Sombra S.A.",
-   "lootIcon": "https://prototrack.gg/assets/division2/brandsets/gruposombrasa.png",
-   "appearances": 15,
-   "last_seen_days": 1
+   "loot": "Rifle",
+   "lootIcon": "https://prototrack.gg/assets/division2/weapons/rifle.png",
+   "appearances": 12,
+   "last_seen_days": 8
   }
  ],
  "caches": [
   {
    "type": "Prototype Gear Cache",
-   "item": "Backpacks",
-   "icon": "https://prototrack.gg/assets/division2/gear/backpack.png",
-   "appearances": 30,
-   "last_seen_days": 1
+   "item": "Holsters",
+   "icon": "https://prototrack.gg/assets/division2/gear/holster.png",
+   "appearances": 29,
+   "last_seen_days": 4
   },
   {
    "type": "Prototype Weapon Cache",
-   "item": "MMRs",
-   "icon": "https://prototrack.gg/assets/division2/weapons/mmr.png",
-   "appearances": 27,
-   "last_seen_days": 1
+   "item": "LMGs",
+   "icon": "https://prototrack.gg/assets/division2/weapons/lmg.png",
+   "appearances": 26,
+   "last_seen_days": 3
   }
  ],
  "tracked_since": "2026-10-09",
- "updated": "2026-11-20T00:02:33Z"
+ "updated": "2026-11-20T16:58:19Z"
 }
