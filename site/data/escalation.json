@@ -11,8 +11,8 @@
    "factionIcon": "https://prototrack.gg/assets/division2/factions/rikers.png",
    "loot": "Gila Guard",
    "lootIcon": "https://prototrack.gg/assets/division2/brandsets/gilaguard.png",
-   "appearances": 15,
-   "last_seen_days": 23
+   "appearances": 16,
+   "last_seen_days": 1
   },
   {
    "mission": "Capitol Building",
@@ -20,8 +20,8 @@
    "factionIcon": "https://prototrack.gg/assets/division2/factions/truesons.png",
    "loot": "Hana-U Corporation",
    "lootIcon": "https://prototrack.gg/assets/division2/brandsets/hanaucorporation.png",
-   "appearances": 15,
-   "last_seen_days": 41
+   "appearances": 16,
+   "last_seen_days": 1
   },
   {
    "mission": "Jefferson Plaza",
@@ -29,8 +29,8 @@
    "factionIcon": "https://prototrack.gg/assets/division2/factions/truesons.png",
    "loot": "Uzina Getica",
    "lootIcon": "https://prototrack.gg/assets/division2/brandsets/uzinagetica.png",
-   "appearances": 14,
-   "last_seen_days": 4
+   "appearances": 15,
+   "last_seen_days": 1
   },
   {
    "mission": "Lincoln Memorial",
@@ -38,8 +38,8 @@
    "factionIcon": "https://prototrack.gg/assets/division2/factions/truesons.png",
    "loot": "Concentrated Company",
    "lootIcon": "https://prototrack.gg/assets/division2/gearsets/concentratedcompany.png",
-   "appearances": 19,
-   "last_seen_days": 13
+   "appearances": 20,
+   "last_seen_days": 1
   },
   {
    "mission": "Federal Emergency Bunker",
@@ -47,8 +47,8 @@
    "factionIcon": "https://prototrack.gg/assets/division2/factions/outcasts.png",
    "loot": "Grupo Sombra S.A.",
    "lootIcon": "https://prototrack.gg/assets/division2/brandsets/gruposombrasa.png",
-   "appearances": 14,
-   "last_seen_days": 23
+   "appearances": 15,
+   "last_seen_days": 1
   }
  ],
  "caches": [
@@ -56,17 +56,17 @@
    "type": "Prototype Gear Cache",
    "item": "Backpacks",
    "icon": "https://prototrack.gg/assets/division2/gear/backpack.png",
-   "appearances": 29,
+   "appearances": 30,
    "last_seen_days": 1
   },
   {
    "type": "Prototype Weapon Cache",
    "item": "MMRs",
    "icon": "https://prototrack.gg/assets/division2/weapons/mmr.png",
-   "appearances": 26,
-   "last_seen_days": 7
+   "appearances": 27,
+   "last_seen_days": 1
   }
  ],
  "tracked_since": "2026-10-09",
- "updated": "2026-11-19T19:59:01Z"
+ "updated": "2026-11-20T00:02:33Z"
 }
