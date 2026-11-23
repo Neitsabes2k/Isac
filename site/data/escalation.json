@@ -1,5 +1,5 @@
 {
- "date": "2026-11-22",
+ "date": "2026-11-23",
  "week": [
   "2026-11-17",
   "2026-11-23"
@@ -9,45 +9,45 @@
    "mission": "The Art Museum",
    "faction": "Rikers",
    "factionIcon": "https://prototrack.gg/assets/division2/factions/rikers.png",
-   "loot": "Umbra Initiative",
-   "lootIcon": "https://prototrack.gg/assets/division2/gearsets/umbrainitiative.png",
-   "appearances": 13,
-   "last_seen_days": 18
+   "loot": "Fenris Group AB",
+   "lootIcon": "https://prototrack.gg/assets/division2/brandsets/fenrisgroupab.png",
+   "appearances": 12,
+   "last_seen_days": 5
   },
   {
    "mission": "Capitol Building",
    "faction": "True Sons",
    "factionIcon": "https://prototrack.gg/assets/division2/factions/truesons.png",
-   "loot": "Future Initiative",
-   "lootIcon": "https://prototrack.gg/assets/division2/gearsets/futureinitiative.png",
-   "appearances": 17,
-   "last_seen_days": 4
+   "loot": "Overlord Armaments",
+   "lootIcon": "https://prototrack.gg/assets/division2/brandsets/overlordarmaments.png",
+   "appearances": 13,
+   "last_seen_days": 6
   },
   {
    "mission": "Jefferson Plaza",
    "faction": "True Sons",
    "factionIcon": "https://prototrack.gg/assets/division2/factions/truesons.png",
-   "loot": "Alps Summit Armaments",
-   "lootIcon": "https://prototrack.gg/assets/division2/brandsets/alpssummitarmaments.png",
-   "appearances": 14,
-   "last_seen_days": 1
+   "loot": "Tip of the Spear",
+   "lootIcon": "https://prototrack.gg/assets/division2/gearsets/tipofthespear.png",
+   "appearances": 20,
+   "last_seen_days": 13
   },
   {
    "mission": "Lincoln Memorial",
    "faction": "True Sons",
    "factionIcon": "https://prototrack.gg/assets/division2/factions/truesons.png",
-   "loot": "Electrique",
-   "lootIcon": "https://prototrack.gg/assets/division2/brandsets/electrique.png",
-   "appearances": 19,
-   "last_seen_days": 12
+   "loot": "Ongoing Directive",
+   "lootIcon": "https://prototrack.gg/assets/division2/gearsets/ongoingdirective.png",
+   "appearances": 15,
+   "last_seen_days": 25
   },
   {
    "mission": "Federal Emergency Bunker",
    "faction": "Outcasts",
    "factionIcon": "https://prototrack.gg/assets/division2/factions/outcasts.png",
-   "loot": "Grupo Sombra S.A.",
-   "lootIcon": "https://prototrack.gg/assets/division2/brandsets/gruposombrasa.png",
-   "appearances": 15,
+   "loot": "Aces & Eights",
+   "lootIcon": "https://prototrack.gg/assets/division2/gearsets/aceseights.png",
+   "appearances": 18,
    "last_seen_days": 3
   }
  ],
@@ -56,17 +56,17 @@
    "type": "Prototype Gear Cache",
    "item": "Masks",
    "icon": "https://prototrack.gg/assets/division2/gear/mask.png",
-   "appearances": 39,
-   "last_seen_days": 5
+   "appearances": 40,
+   "last_seen_days": 1
   },
   {
    "type": "Prototype Weapon Cache",
-   "item": "Assault Rifles",
-   "icon": "https://prototrack.gg/assets/division2/weapons/ar.png",
-   "appearances": 29,
-   "last_seen_days": 6
+   "item": "LMGs",
+   "icon": "https://prototrack.gg/assets/division2/weapons/lmg.png",
+   "appearances": 28,
+   "last_seen_days": 2
   }
  ],
  "tracked_since": "2026-10-09",
- "updated": "2026-11-22T22:59:27Z"
+ "updated": "2026-11-23T20:14:54Z"
 }
