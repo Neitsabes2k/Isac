@@ -1,72 +1,72 @@
 {
- "date": "2026-11-23",
+ "date": "2026-11-24",
  "week": [
   "2026-11-24",
   "2026-11-30"
  ],
  "missions": [
   {
-   "mission": "The Art Museum",
-   "faction": "Rikers",
-   "factionIcon": "https://prototrack.gg/assets/division2/factions/rikers.png",
+   "mission": "The Pentagon",
+   "faction": "Black Tusk",
+   "factionIcon": "https://prototrack.gg/assets/division2/factions/blacktusks.png",
+   "loot": "China Light Industries",
+   "lootIcon": "https://prototrack.gg/assets/division2/brandsets/chinalightindustriescorporation.png",
+   "appearances": 7,
+   "last_seen_days": 45
+  },
+  {
+   "mission": "DARPA Research Labs",
+   "faction": "Black Tusk",
+   "factionIcon": "https://prototrack.gg/assets/division2/factions/blacktusks.png",
+   "loot": "Petrov Defense Group",
+   "lootIcon": "https://prototrack.gg/assets/division2/brandsets/petrovdefensegroup.png",
+   "appearances": 18,
+   "last_seen_days": 23
+  },
+  {
+   "mission": "District Union Arena",
+   "faction": "Hyenas",
+   "factionIcon": "https://prototrack.gg/assets/division2/factions/hyenas.png",
    "loot": "Fenris Group AB",
    "lootIcon": "https://prototrack.gg/assets/division2/brandsets/fenrisgroupab.png",
    "appearances": 13,
    "last_seen_days": 1
   },
   {
-   "mission": "Capitol Building",
-   "faction": "True Sons",
-   "factionIcon": "https://prototrack.gg/assets/division2/factions/truesons.png",
-   "loot": "Overlord Armaments",
-   "lootIcon": "https://prototrack.gg/assets/division2/brandsets/overlordarmaments.png",
-   "appearances": 14,
-   "last_seen_days": 1
-  },
-  {
-   "mission": "Jefferson Plaza",
-   "faction": "True Sons",
-   "factionIcon": "https://prototrack.gg/assets/division2/factions/truesons.png",
-   "loot": "Tip of the Spear",
-   "lootIcon": "https://prototrack.gg/assets/division2/gearsets/tipofthespear.png",
-   "appearances": 21,
-   "last_seen_days": 1
-  },
-  {
-   "mission": "Lincoln Memorial",
-   "faction": "True Sons",
-   "factionIcon": "https://prototrack.gg/assets/division2/factions/truesons.png",
-   "loot": "Ongoing Directive",
-   "lootIcon": "https://prototrack.gg/assets/division2/gearsets/ongoingdirective.png",
-   "appearances": 16,
-   "last_seen_days": 1
-  },
-  {
-   "mission": "Federal Emergency Bunker",
+   "mission": "Roosevelt Island",
    "faction": "Outcasts",
    "factionIcon": "https://prototrack.gg/assets/division2/factions/outcasts.png",
-   "loot": "Aces & Eights",
-   "lootIcon": "https://prototrack.gg/assets/division2/gearsets/aceseights.png",
-   "appearances": 19,
-   "last_seen_days": 1
+   "loot": "Grupo Sombra S.A.",
+   "lootIcon": "https://prototrack.gg/assets/division2/brandsets/gruposombrasa.png",
+   "appearances": 16,
+   "last_seen_days": 2
+  },
+  {
+   "mission": "Space Administration HQ",
+   "faction": "True Sons",
+   "factionIcon": "https://prototrack.gg/assets/division2/factions/truesons.png",
+   "loot": "Body Armor",
+   "lootIcon": "https://prototrack.gg/assets/division2/gear/chest.png",
+   "appearances": 21,
+   "last_seen_days": 6
   }
  ],
  "caches": [
   {
    "type": "Prototype Gear Cache",
-   "item": "Masks",
-   "icon": "https://prototrack.gg/assets/division2/gear/mask.png",
-   "appearances": 41,
-   "last_seen_days": 1
+   "item": "Holsters",
+   "icon": "https://prototrack.gg/assets/division2/gear/holster.png",
+   "appearances": 30,
+   "last_seen_days": 4
   },
   {
    "type": "Prototype Weapon Cache",
-   "item": "LMGs",
-   "icon": "https://prototrack.gg/assets/division2/weapons/lmg.png",
-   "appearances": 29,
-   "last_seen_days": 1
+   "item": "Rifles",
+   "icon": "https://prototrack.gg/assets/division2/weapons/rifle.png",
+   "appearances": 33,
+   "last_seen_days": 17
   }
  ],
  "tracked_since": "2026-10-09",
- "updated": "2026-11-24T03:38:49Z"
+ "updated": "2026-11-24T19:30:48Z"
 }
