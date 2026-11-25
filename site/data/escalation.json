@@ -11,8 +11,8 @@
    "factionIcon": "https://prototrack.gg/assets/division2/factions/blacktusks.png",
    "loot": "China Light Industries",
    "lootIcon": "https://prototrack.gg/assets/division2/brandsets/chinalightindustriescorporation.png",
-   "appearances": 7,
-   "last_seen_days": 45
+   "appearances": 8,
+   "last_seen_days": 1
   },
   {
    "mission": "DARPA Research Labs",
@@ -20,8 +20,8 @@
    "factionIcon": "https://prototrack.gg/assets/division2/factions/blacktusks.png",
    "loot": "Petrov Defense Group",
    "lootIcon": "https://prototrack.gg/assets/division2/brandsets/petrovdefensegroup.png",
-   "appearances": 18,
-   "last_seen_days": 23
+   "appearances": 19,
+   "last_seen_days": 1
   },
   {
    "mission": "District Union Arena",
@@ -29,7 +29,7 @@
    "factionIcon": "https://prototrack.gg/assets/division2/factions/hyenas.png",
    "loot": "Fenris Group AB",
    "lootIcon": "https://prototrack.gg/assets/division2/brandsets/fenrisgroupab.png",
-   "appearances": 13,
+   "appearances": 14,
    "last_seen_days": 1
   },
   {
@@ -38,8 +38,8 @@
    "factionIcon": "https://prototrack.gg/assets/division2/factions/outcasts.png",
    "loot": "Grupo Sombra S.A.",
    "lootIcon": "https://prototrack.gg/assets/division2/brandsets/gruposombrasa.png",
-   "appearances": 16,
-   "last_seen_days": 2
+   "appearances": 17,
+   "last_seen_days": 1
   },
   {
    "mission": "Space Administration HQ",
@@ -47,8 +47,8 @@
    "factionIcon": "https://prototrack.gg/assets/division2/factions/truesons.png",
    "loot": "Body Armor",
    "lootIcon": "https://prototrack.gg/assets/division2/gear/chest.png",
-   "appearances": 21,
-   "last_seen_days": 6
+   "appearances": 22,
+   "last_seen_days": 1
   }
  ],
  "caches": [
@@ -56,17 +56,17 @@
    "type": "Prototype Gear Cache",
    "item": "Holsters",
    "icon": "https://prototrack.gg/assets/division2/gear/holster.png",
-   "appearances": 30,
-   "last_seen_days": 4
+   "appearances": 31,
+   "last_seen_days": 1
   },
   {
    "type": "Prototype Weapon Cache",
    "item": "Rifles",
    "icon": "https://prototrack.gg/assets/division2/weapons/rifle.png",
-   "appearances": 33,
-   "last_seen_days": 17
+   "appearances": 34,
+   "last_seen_days": 1
   }
  ],
  "tracked_since": "2026-10-09",
- "updated": "2026-11-24T21:57:36Z"
+ "updated": "2026-11-25T01:46:19Z"
 }
