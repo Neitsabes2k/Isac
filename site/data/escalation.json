@@ -1,5 +1,5 @@
 {
- "date": "2026-11-24",
+ "date": "2026-11-25",
  "week": [
   "2026-11-24",
   "2026-11-30"
@@ -9,64 +9,64 @@
    "mission": "The Pentagon",
    "faction": "Black Tusk",
    "factionIcon": "https://prototrack.gg/assets/division2/factions/blacktusks.png",
-   "loot": "China Light Industries",
-   "lootIcon": "https://prototrack.gg/assets/division2/brandsets/chinalightindustriescorporation.png",
-   "appearances": 8,
-   "last_seen_days": 1
+   "loot": "Virtuoso",
+   "lootIcon": "https://prototrack.gg/assets/division2/gearsets/virtuoso.png",
+   "appearances": 14,
+   "last_seen_days": 10
   },
   {
    "mission": "DARPA Research Labs",
    "faction": "Black Tusk",
    "factionIcon": "https://prototrack.gg/assets/division2/factions/blacktusks.png",
-   "loot": "Petrov Defense Group",
-   "lootIcon": "https://prototrack.gg/assets/division2/brandsets/petrovdefensegroup.png",
-   "appearances": 19,
-   "last_seen_days": 1
+   "loot": "Heartbreaker",
+   "lootIcon": "https://prototrack.gg/assets/division2/gearsets/heartbreaker.png",
+   "appearances": 10,
+   "last_seen_days": 36
   },
   {
    "mission": "District Union Arena",
    "faction": "Hyenas",
    "factionIcon": "https://prototrack.gg/assets/division2/factions/hyenas.png",
-   "loot": "Fenris Group AB",
-   "lootIcon": "https://prototrack.gg/assets/division2/brandsets/fenrisgroupab.png",
-   "appearances": 14,
-   "last_seen_days": 1
+   "loot": "Measured Assembly",
+   "lootIcon": "https://prototrack.gg/assets/division2/gearsets/measuredassembly.png",
+   "appearances": 15,
+   "last_seen_days": 4
   },
   {
    "mission": "Roosevelt Island",
    "faction": "Outcasts",
    "factionIcon": "https://prototrack.gg/assets/division2/factions/outcasts.png",
-   "loot": "Grupo Sombra S.A.",
-   "lootIcon": "https://prototrack.gg/assets/division2/brandsets/gruposombrasa.png",
-   "appearances": 17,
-   "last_seen_days": 1
+   "loot": "Walker, Harris & Co",
+   "lootIcon": "https://prototrack.gg/assets/division2/brandsets/walkerharrisco.png",
+   "appearances": 16,
+   "last_seen_days": 43
   },
   {
    "mission": "Space Administration HQ",
    "faction": "True Sons",
    "factionIcon": "https://prototrack.gg/assets/division2/factions/truesons.png",
-   "loot": "Body Armor",
-   "lootIcon": "https://prototrack.gg/assets/division2/gear/chest.png",
-   "appearances": 22,
-   "last_seen_days": 1
+   "loot": "Concentrated Company",
+   "lootIcon": "https://prototrack.gg/assets/division2/gearsets/concentratedcompany.png",
+   "appearances": 20,
+   "last_seen_days": 6
   }
  ],
  "caches": [
   {
    "type": "Prototype Gear Cache",
-   "item": "Holsters",
-   "icon": "https://prototrack.gg/assets/division2/gear/holster.png",
-   "appearances": 31,
-   "last_seen_days": 1
+   "item": "Chest Pieces",
+   "icon": "https://prototrack.gg/assets/division2/gear/chest.png",
+   "appearances": 32,
+   "last_seen_days": 4
   },
   {
    "type": "Prototype Weapon Cache",
-   "item": "Rifles",
-   "icon": "https://prototrack.gg/assets/division2/weapons/rifle.png",
+   "item": "Shotguns",
+   "icon": "https://prototrack.gg/assets/division2/weapons/shotgun.png",
    "appearances": 34,
-   "last_seen_days": 1
+   "last_seen_days": 7
   }
  ],
  "tracked_since": "2026-10-09",
- "updated": "2026-11-25T01:46:19Z"
+ "updated": "2026-11-25T18:39:34Z"
 }
