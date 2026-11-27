@@ -11,8 +11,8 @@
    "factionIcon": "https://prototrack.gg/assets/division2/factions/blacktusks.png",
    "loot": "Gila Guard",
    "lootIcon": "https://prototrack.gg/assets/division2/brandsets/gilaguard.png",
-   "appearances": 16,
-   "last_seen_days": 7
+   "appearances": 17,
+   "last_seen_days": 1
   },
   {
    "mission": "DARPA Research Labs",
@@ -20,8 +20,8 @@
    "factionIcon": "https://prototrack.gg/assets/division2/factions/blacktusks.png",
    "loot": "Tipping Scales",
    "lootIcon": "https://prototrack.gg/assets/division2/gearsets/tippingscales.png",
-   "appearances": 16,
-   "last_seen_days": 29
+   "appearances": 17,
+   "last_seen_days": 1
   },
   {
    "mission": "District Union Arena",
@@ -29,8 +29,8 @@
    "factionIcon": "https://prototrack.gg/assets/division2/factions/hyenas.png",
    "loot": "Grupo Sombra S.A.",
    "lootIcon": "https://prototrack.gg/assets/division2/brandsets/gruposombrasa.png",
-   "appearances": 17,
-   "last_seen_days": 2
+   "appearances": 18,
+   "last_seen_days": 1
   },
   {
    "mission": "Roosevelt Island",
@@ -38,8 +38,8 @@
    "factionIcon": "https://prototrack.gg/assets/division2/factions/outcasts.png",
    "loot": "Cavalier",
    "lootIcon": "https://prototrack.gg/assets/division2/gearsets/cavalier.png",
-   "appearances": 15,
-   "last_seen_days": 18
+   "appearances": 16,
+   "last_seen_days": 1
   },
   {
    "mission": "Space Administration HQ",
@@ -47,8 +47,8 @@
    "factionIcon": "https://prototrack.gg/assets/division2/factions/truesons.png",
    "loot": "Habsburg Guard",
    "lootIcon": "https://prototrack.gg/assets/division2/brandsets/habsburgguard.png",
-   "appearances": 16,
-   "last_seen_days": 33
+   "appearances": 17,
+   "last_seen_days": 1
   }
  ],
  "caches": [
@@ -56,17 +56,17 @@
    "type": "Prototype Gear Cache",
    "item": "Backpacks",
    "icon": "https://prototrack.gg/assets/division2/gear/backpack.png",
-   "appearances": 30,
-   "last_seen_days": 7
+   "appearances": 31,
+   "last_seen_days": 1
   },
   {
    "type": "Prototype Weapon Cache",
    "item": "MMRs",
    "icon": "https://prototrack.gg/assets/division2/weapons/mmr.png",
-   "appearances": 27,
-   "last_seen_days": 7
+   "appearances": 28,
+   "last_seen_days": 1
   }
  ],
  "tracked_since": "2026-10-09",
- "updated": "2026-11-26T20:58:13Z"
+ "updated": "2026-11-27T01:19:10Z"
 }
