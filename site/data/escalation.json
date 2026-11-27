@@ -1,5 +1,5 @@
 {
- "date": "2026-11-26",
+ "date": "2026-11-27",
  "week": [
   "2026-11-24",
   "2026-11-30"
@@ -9,64 +9,64 @@
    "mission": "The Pentagon",
    "faction": "Black Tusk",
    "factionIcon": "https://prototrack.gg/assets/division2/factions/blacktusks.png",
+   "loot": "Alps Summit Armaments",
+   "lootIcon": "https://prototrack.gg/assets/division2/brandsets/alpssummitarmaments.png",
+   "appearances": 15,
+   "last_seen_days": 5
+  },
+  {
+   "mission": "DARPA Research Labs",
+   "faction": "Black Tusk",
+   "factionIcon": "https://prototrack.gg/assets/division2/factions/blacktusks.png",
+   "loot": "Field General",
+   "lootIcon": "https://prototrack.gg/assets/division2/gearsets/fieldgeneral.png",
+   "appearances": 1,
+   "last_seen_days": 0
+  },
+  {
+   "mission": "District Union Arena",
+   "faction": "Hyenas",
+   "factionIcon": "https://prototrack.gg/assets/division2/factions/hyenas.png",
    "loot": "Gila Guard",
    "lootIcon": "https://prototrack.gg/assets/division2/brandsets/gilaguard.png",
    "appearances": 17,
    "last_seen_days": 1
   },
   {
-   "mission": "DARPA Research Labs",
-   "faction": "Black Tusk",
-   "factionIcon": "https://prototrack.gg/assets/division2/factions/blacktusks.png",
-   "loot": "Tipping Scales",
-   "lootIcon": "https://prototrack.gg/assets/division2/gearsets/tippingscales.png",
-   "appearances": 17,
-   "last_seen_days": 1
-  },
-  {
-   "mission": "District Union Arena",
-   "faction": "Hyenas",
-   "factionIcon": "https://prototrack.gg/assets/division2/factions/hyenas.png",
-   "loot": "Grupo Sombra S.A.",
-   "lootIcon": "https://prototrack.gg/assets/division2/brandsets/gruposombrasa.png",
-   "appearances": 18,
-   "last_seen_days": 1
-  },
-  {
    "mission": "Roosevelt Island",
    "faction": "Outcasts",
    "factionIcon": "https://prototrack.gg/assets/division2/factions/outcasts.png",
-   "loot": "Cavalier",
-   "lootIcon": "https://prototrack.gg/assets/division2/gearsets/cavalier.png",
+   "loot": "Murakami Industries",
+   "lootIcon": "https://prototrack.gg/assets/division2/brandsets/murakamiindustries.png",
    "appearances": 16,
-   "last_seen_days": 1
+   "last_seen_days": 29
   },
   {
    "mission": "Space Administration HQ",
    "faction": "True Sons",
    "factionIcon": "https://prototrack.gg/assets/division2/factions/truesons.png",
-   "loot": "Habsburg Guard",
-   "lootIcon": "https://prototrack.gg/assets/division2/brandsets/habsburgguard.png",
-   "appearances": 17,
-   "last_seen_days": 1
+   "loot": "Brazos de Arcabuz",
+   "lootIcon": "https://prototrack.gg/assets/division2/brandsets/brazosdearcabuz.png",
+   "appearances": 9,
+   "last_seen_days": 57
   }
  ],
  "caches": [
   {
    "type": "Prototype Gear Cache",
-   "item": "Backpacks",
-   "icon": "https://prototrack.gg/assets/division2/gear/backpack.png",
-   "appearances": 31,
-   "last_seen_days": 1
+   "item": "Masks",
+   "icon": "https://prototrack.gg/assets/division2/gear/mask.png",
+   "appearances": 41,
+   "last_seen_days": 4
   },
   {
    "type": "Prototype Weapon Cache",
-   "item": "MMRs",
-   "icon": "https://prototrack.gg/assets/division2/weapons/mmr.png",
-   "appearances": 28,
-   "last_seen_days": 1
+   "item": "Pistols",
+   "icon": "https://prototrack.gg/assets/division2/weapons/pistol.png",
+   "appearances": 24,
+   "last_seen_days": 14
   }
  ],
  "tracked_since": "2026-10-09",
- "updated": "2026-11-27T01:19:10Z"
+ "updated": "2026-11-27T18:12:11Z"
 }
