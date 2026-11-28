@@ -1,5 +1,5 @@
 {
- "date": "2026-11-27",
+ "date": "2026-11-28",
  "week": [
   "2026-11-24",
   "2026-11-30"
@@ -9,46 +9,46 @@
    "mission": "The Pentagon",
    "faction": "Black Tusk",
    "factionIcon": "https://prototrack.gg/assets/division2/factions/blacktusks.png",
-   "loot": "Alps Summit Armaments",
-   "lootIcon": "https://prototrack.gg/assets/division2/brandsets/alpssummitarmaments.png",
+   "loot": "Refactor",
+   "lootIcon": "https://prototrack.gg/assets/division2/gearsets/refactor.png",
    "appearances": 16,
-   "last_seen_days": 1
+   "last_seen_days": 22
   },
   {
    "mission": "DARPA Research Labs",
    "faction": "Black Tusk",
    "factionIcon": "https://prototrack.gg/assets/division2/factions/blacktusks.png",
-   "loot": "Field General",
-   "lootIcon": "https://prototrack.gg/assets/division2/gearsets/fieldgeneral.png",
-   "appearances": 2,
-   "last_seen_days": 1
+   "loot": "Eclipse Protocol",
+   "lootIcon": "https://prototrack.gg/assets/division2/gearsets/eclipseprotocol.png",
+   "appearances": 13,
+   "last_seen_days": 28
   },
   {
    "mission": "District Union Arena",
    "faction": "Hyenas",
    "factionIcon": "https://prototrack.gg/assets/division2/factions/hyenas.png",
-   "loot": "Gila Guard",
-   "lootIcon": "https://prototrack.gg/assets/division2/brandsets/gilaguard.png",
+   "loot": "Sokolov Concern",
+   "lootIcon": "https://prototrack.gg/assets/division2/brandsets/sokolovconcern.png",
    "appearances": 18,
-   "last_seen_days": 1
+   "last_seen_days": 24
   },
   {
    "mission": "Roosevelt Island",
    "faction": "Outcasts",
    "factionIcon": "https://prototrack.gg/assets/division2/factions/outcasts.png",
-   "loot": "Murakami Industries",
-   "lootIcon": "https://prototrack.gg/assets/division2/brandsets/murakamiindustries.png",
-   "appearances": 17,
-   "last_seen_days": 1
+   "loot": "Hotshot",
+   "lootIcon": "https://prototrack.gg/assets/division2/gearsets/hotshot.png",
+   "appearances": 8,
+   "last_seen_days": 54
   },
   {
    "mission": "Space Administration HQ",
    "faction": "True Sons",
    "factionIcon": "https://prototrack.gg/assets/division2/factions/truesons.png",
-   "loot": "Brazos de Arcabuz",
-   "lootIcon": "https://prototrack.gg/assets/division2/brandsets/brazosdearcabuz.png",
-   "appearances": 10,
-   "last_seen_days": 1
+   "loot": "Petrov Defense Group",
+   "lootIcon": "https://prototrack.gg/assets/division2/brandsets/petrovdefensegroup.png",
+   "appearances": 19,
+   "last_seen_days": 4
   }
  ],
  "caches": [
@@ -61,12 +61,12 @@
   },
   {
    "type": "Prototype Weapon Cache",
-   "item": "Pistols",
-   "icon": "https://prototrack.gg/assets/division2/weapons/pistol.png",
-   "appearances": 25,
-   "last_seen_days": 1
+   "item": "Shotguns",
+   "icon": "https://prototrack.gg/assets/division2/weapons/shotgun.png",
+   "appearances": 35,
+   "last_seen_days": 3
   }
  ],
  "tracked_since": "2026-10-09",
- "updated": "2026-11-28T00:52:40Z"
+ "updated": "2026-11-28T16:53:53Z"
 }
