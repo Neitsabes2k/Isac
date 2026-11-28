@@ -11,8 +11,8 @@
    "factionIcon": "https://prototrack.gg/assets/division2/factions/blacktusks.png",
    "loot": "Alps Summit Armaments",
    "lootIcon": "https://prototrack.gg/assets/division2/brandsets/alpssummitarmaments.png",
-   "appearances": 15,
-   "last_seen_days": 5
+   "appearances": 16,
+   "last_seen_days": 1
   },
   {
    "mission": "DARPA Research Labs",
@@ -20,8 +20,8 @@
    "factionIcon": "https://prototrack.gg/assets/division2/factions/blacktusks.png",
    "loot": "Field General",
    "lootIcon": "https://prototrack.gg/assets/division2/gearsets/fieldgeneral.png",
-   "appearances": 1,
-   "last_seen_days": 0
+   "appearances": 2,
+   "last_seen_days": 1
   },
   {
    "mission": "District Union Arena",
@@ -29,7 +29,7 @@
    "factionIcon": "https://prototrack.gg/assets/division2/factions/hyenas.png",
    "loot": "Gila Guard",
    "lootIcon": "https://prototrack.gg/assets/division2/brandsets/gilaguard.png",
-   "appearances": 17,
+   "appearances": 18,
    "last_seen_days": 1
   },
   {
@@ -38,8 +38,8 @@
    "factionIcon": "https://prototrack.gg/assets/division2/factions/outcasts.png",
    "loot": "Murakami Industries",
    "lootIcon": "https://prototrack.gg/assets/division2/brandsets/murakamiindustries.png",
-   "appearances": 16,
-   "last_seen_days": 29
+   "appearances": 17,
+   "last_seen_days": 1
   },
   {
    "mission": "Space Administration HQ",
@@ -47,8 +47,8 @@
    "factionIcon": "https://prototrack.gg/assets/division2/factions/truesons.png",
    "loot": "Brazos de Arcabuz",
    "lootIcon": "https://prototrack.gg/assets/division2/brandsets/brazosdearcabuz.png",
-   "appearances": 9,
-   "last_seen_days": 57
+   "appearances": 10,
+   "last_seen_days": 1
   }
  ],
  "caches": [
@@ -56,17 +56,17 @@
    "type": "Prototype Gear Cache",
    "item": "Masks",
    "icon": "https://prototrack.gg/assets/division2/gear/mask.png",
-   "appearances": 41,
-   "last_seen_days": 4
+   "appearances": 42,
+   "last_seen_days": 1
   },
   {
    "type": "Prototype Weapon Cache",
    "item": "Pistols",
    "icon": "https://prototrack.gg/assets/division2/weapons/pistol.png",
-   "appearances": 24,
-   "last_seen_days": 14
+   "appearances": 25,
+   "last_seen_days": 1
   }
  ],
  "tracked_since": "2026-10-09",
- "updated": "2026-11-27T20:43:05Z"
+ "updated": "2026-11-28T00:52:40Z"
 }
